@@ -18,7 +18,7 @@ export const ThemeProvider = (props) => {
 
     const defaultTheme = {
         dark: isDark,
-        colors: isDark ? darkColors : lightColors,
+        colors: isDark ? darkColors : darkColors,
         setScheme: (scheme)=>setIsDark(scheme === "dark")
     }
     return (

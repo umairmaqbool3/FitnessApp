@@ -2,13 +2,18 @@ import { Dimensions } from 'react-native'
 const { height, width } = Dimensions.get('window')
 
 export const COLORS = {
-    primary: '#10A37F',
+    primary: '#CC8FED',
+    primaryGradient1: '#983BCB',
+    primaryGradient2: '#4023D7',
+    splashGradient1:'#9C23D7',
+    splashGradient2:'#9F2E6E',
     white: '#FFFFFF',
+    darkBackground: '#2A2C38',
     secondaryWhite: '#F7F7F8',
     black: '#0B0B0B',
     secondaryBlack: '#444654',
     tertiaryBlack: '#202123',
-    gray: 'F8F8F8',
+    gray: '#F8F8F8',
     secondaryGray: '#808080',
 }
 
@@ -23,6 +28,7 @@ export const SIZES = {
 
     // FONTS Sizes
     largeTitle: 50,
+    mediumTitle: 46,
     h1: 30,
     h2: 22,
     h3: 20,
@@ -42,6 +48,11 @@ export const FONTS = {
         fontFamily: 'black',
         fontSize: SIZES.largeTitle,
         lineHeight: 55,
+    },
+    mediumTitle: {
+        fontFamily: 'black',
+        fontSize: SIZES.mediumTitle,
+        lineHeight: 50,
     },
     h1: { fontFamily: 'bold', fontSize: SIZES.h1, lineHeight: 36 },
     h2: { fontFamily: 'bold', fontSize: SIZES.h2, lineHeight: 30 },

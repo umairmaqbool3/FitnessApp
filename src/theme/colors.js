@@ -10,5 +10,5 @@ export const lightColors = {
 export const darkColors = {
     primary: COLORS.primary,
     text: COLORS.white,
-    background: COLORS.black
+    background: COLORS.darkBackground,
 }
